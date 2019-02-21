@@ -1,7 +1,11 @@
 <template>
   <div>
-    <b-form-textarea v-model="form.text" placeholder="Insérer vos données" rows="5" max-rows="5"/>
-    <b-button block class="mt-2" :disabled="$v.form.$invalid" @click="addLayer()">Ajouter</b-button>
+    <button class="btn btn-secondary rounded-circle" @click="modal = true" style="width: 50px; height: 50px" name="button">
+      <font-awesome-icon icon="plus" fixed-width/>
+    </button>
+    <b-modal v-model="modal" title="Ajouter un GeoJSON" cancel-title="Annuler" ok-title="Ajouter" :ok-disabled="$v.form.$invalid" @ok="addLayer()" lazy>
+      <b-form-textarea v-model="form.text" placeholder="Insérer vos données" rows="5" max-rows="5"/>
+    </b-modal>
   </div>
 </template>
 
@@ -28,9 +32,8 @@ export default {
   },
   data () {
     return {
-      form: {
-        text: ''
-      }
+      modal: false,
+      form: { text: '' }
     }
   },
   methods: {

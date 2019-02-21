@@ -21,6 +21,12 @@ module.exports = {
   /*
   ** CSS
   */
+  router: {
+    linkActiveClass: 'active'
+  },
+  /*
+  ** CSS
+  */
   plugins: [
     { src: '~/plugins/localStorage.js', ssr: false }
   ],
@@ -36,7 +42,7 @@ module.exports = {
     ['nuxt-fontawesome', {
       imports: [{
         set: '@fortawesome/free-solid-svg-icons',
-        icons: ['faEdit', 'faTrashAlt','faMapPin']
+        icons: ['faEdit', 'faTrash','faMapPin', 'faPlus']
       }]
     }]
   ],

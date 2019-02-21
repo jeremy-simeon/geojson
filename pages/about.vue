@@ -1,10 +1,6 @@
 <template>
-  <div class="flex-grow-1 position-relative">
-    <map-layers/>
-    <div class="position-absolute" style="bottom: 20px; left: 20px; z-index: 1000">
-      <form-layers/>
-      <list-group-layers/>
-    </div>
+  <div class="container-fluid p-4">
+    <h1>A propos</h1>
   </div>
 </template>
 

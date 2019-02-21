@@ -1,17 +1,19 @@
 <template>
   <div class="min-vh-100 d-flex flex-column">
     <header>
-      <header class="navbar navbar-expand-lg navbar-dark bg-primary">
-        <nuxt-link class="navbar-brand" :to="{ name: 'index' }">GeoJSON</nuxt-link>
-      </header>
+      <b-navbar toggleable="lg" type="dark" variant="dark">
+        <b-navbar-brand :to="{ name: 'index' }">GEOJSON</b-navbar-brand>
+        <b-navbar-toggle target="nav_collapse"/>
+        <b-collapse is-nav id="nav_collapse">
+          <b-navbar-nav>
+            <b-nav-item :to="{ name: 'index' }" exact>Accueil</b-nav-item>
+            <b-nav-item :to="{ name: 'about' }" exact>A propos</b-nav-item>
+          </b-navbar-nav>
+        </b-collapse>
+      </b-navbar>
     </header>
-    <main class="container-fluid p-3 d-flex flex-grow-1">
+    <main class="d-flex flex-grow-1">
       <nuxt/>
     </main>
-    <footer class="w-100 bg-light">
-      <div class="text-center py-3 container-fluid">
-        Développé par <a href="https://jeremy-simeon.fr">Jérémy SIMEON</a>
-      </div>
-    </footer>
   </div>
 </template>

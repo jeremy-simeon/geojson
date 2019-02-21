@@ -14,8 +14,8 @@ export const mutations = {
   deleteLayer (state, layer) {
     state.layers.splice(state.layers.indexOf(layer), 1)
   },
-  setBounds (state, bounds) {
-    state.bounds = bounds
+  setBounds (state, layer) {
+    state.bounds = layer.bounds
   },
   clearBounds (state) {
     state.bounds = null
