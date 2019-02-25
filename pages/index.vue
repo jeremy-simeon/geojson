@@ -1,9 +1,9 @@
 <template>
   <div class="flex-grow-1 position-relative">
     <map-layers/>
-    <div class="position-absolute" style="bottom: 20px; left: 20px; z-index: 1000">
-      <form-layers/>
+    <div class="position-absolute" style="top: 10px; left: 20px; z-index: 1000">
       <list-group-layers/>
+      <form-layers/>
     </div>
   </div>
 </template>

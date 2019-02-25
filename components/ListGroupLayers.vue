@@ -1,5 +1,5 @@
 <template>
-  <ul class="list-unstyled mb-0 mt-2">
+  <ul class="list-unstyled mb-2">
     <li v-for="(l, i) in $store.state.layers" :key="i">
       <b-badge variant="secondary">
         {{ l.geojson.type }}
