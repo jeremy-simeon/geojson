@@ -12,7 +12,7 @@
     <h2 class="h4">Technologies</h2>
     <p>
       <a href="https://nuxtjs.org/">
-        <img src="~assets/nuxt.png" target="_blank" width="100px" alt="nuxt logo">
+        <img src="~static/nuxt.png" target="_blank" width="100px" alt="nuxt logo">
       </a>
     </p>
   </div>
