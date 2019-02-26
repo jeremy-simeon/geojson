@@ -1,6 +1,6 @@
 <template>
   <div class="container-fluid p-4">
-    <h1 class="h3 mb-5">A propos</h1>
+    <h1 class="h3 mb-5">À propos</h1>
     <h2 class="h4">Développement</h2>
     <p class="mb-5">
       Application développée par <a href="https://jeremy-simeon.fr" target="_blank">Jérémy SIMÉON</a>
