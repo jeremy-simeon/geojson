@@ -4,10 +4,10 @@ export const state = () => ({
 })
 
 export const mutations = {
-  addLayer (state, geojson) {
+  addLayer (state, { geojson, name }) {
     const bounds = L.geoJson(geojson).getBounds()
     const coordinates = [bounds.getSouthWest(), bounds.getNorthEast()]
-    const layer = { geojson: geojson, bounds: coordinates }
+    const layer = { geojson, name, bounds: coordinates, display: true }
     state.bounds = bounds
     state.layers.push(layer)
   },
@@ -19,5 +19,9 @@ export const mutations = {
   },
   clearBounds (state) {
     state.bounds = null
+  },
+  toggleDisplay (state, layer) {
+    const index = state.layers.indexOf(layer)
+    state.layers[index].display = !state.layers[index].display
   }
 }

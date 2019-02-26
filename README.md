@@ -1,23 +1,28 @@
-# geojson.jeremy-simeon.fr
+# GEOJSON
 
-> Nuxt.js project
+> Rédaction en cours...
 
-## Build Setup
+## Présentation
+
+Cette application permet de visualiser des données géospatiales au format GeoJSON.
+
+## Configuration
 
 ``` bash
-# install dependencies
+# Installation des dépendances
 $ npm install # Or yarn install
 
-# serve with hot reload at localhost:3000
+# Lancement du serveur de développement
 $ npm run dev
 
-# build for production and launch server
+# Mise en production
 $ npm run build
 $ npm start
 
-# generate static project
+# Générer les pages statiques
 $ npm run generate
 ```
 
-For detailed explanation on how things work, checkout the [Nuxt.js docs](https://github.com/nuxt/nuxt.js).
+## Technologies
 
+L'application a été développée avec [Nuxt.js](https://github.com/nuxt/nuxt.js).

@@ -42,7 +42,7 @@ module.exports = {
     ['nuxt-fontawesome', {
       imports: [{
         set: '@fortawesome/free-solid-svg-icons',
-        icons: ['faEdit', 'faTrash','faMapPin', 'faPlus', 'faEyeSlash', 'faEye']
+        icons: ['faPencilAlt', 'faTrash','faMapPin', 'faPlus', 'faEyeSlash', 'faEye']
       }]
     }]
   ],
