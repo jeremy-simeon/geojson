@@ -6,6 +6,10 @@
 
 Cette application permet de visualiser des données géospatiales au format GeoJSON.
 
+## Démonstation
+
+L'application est accessible à cette adresse : https://geojson.jeremy-simeon.fr
+
 ## Configuration
 
 ``` bash
