@@ -39,10 +39,16 @@ module.exports = {
       bootstrapCSS: false,
       bootstrapVueCSS: false
     }],
+    ['@nuxtjs/google-analytics', {
+      id: 'UA-134146097-2'
+    }],
     ['nuxt-fontawesome', {
       imports: [{
         set: '@fortawesome/free-solid-svg-icons',
-        icons: ['faPencilAlt', 'faTrash','faMapPin', 'faPlus', 'faEyeSlash', 'faEye']
+        icons: [
+          'faPencilAlt', 'faTrash','faMapPin',
+          'faPlus', 'faEyeSlash', 'faEye'
+        ]
       }]
     }]
   ],
