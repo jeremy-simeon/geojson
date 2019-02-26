@@ -7,7 +7,7 @@
     </p>
     <h2 class="h4">Open source</h2>
     <p class="mb-5">
-      Vous pouvez retrouver le projet sur <a href="https://github.com/jeremy-simeon/geojson" target="_blank">Github</a>
+      Vous pouvez retrouver le projet sur <a href="https://github.com/jeremy-simeon/geojson" target="_blank">GitHub</a>
     </p>
     <h2 class="h4">Technologies</h2>
     <p>
