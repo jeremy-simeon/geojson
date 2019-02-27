@@ -7,7 +7,7 @@
         <b-collapse is-nav id="nav_collapse">
           <b-navbar-nav>
             <b-nav-item :to="{ name: 'index' }" exact>Accueil</b-nav-item>
-            <b-nav-item :to="{ name: 'about' }" exact>A propos</b-nav-item>
+            <b-nav-item :to="{ name: 'about' }" exact>À propos</b-nav-item>
           </b-navbar-nav>
         </b-collapse>
       </b-navbar>
