@@ -2,6 +2,10 @@
 
 > Rédaction en cours...
 
+## Fonctionnalités
+
+> Rédaction en cours...
+
 ## Présentation
 
 Cette application permet de visualiser des données géospatiales au format GeoJSON.
