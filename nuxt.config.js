@@ -20,7 +20,7 @@ module.exports = {
     '@/assets/main.scss'
   ],
   /*
-  ** CSS
+  ** Router
   */
   router: {
     linkActiveClass: 'active'
