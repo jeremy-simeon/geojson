@@ -12,7 +12,7 @@ Cette application permet de visualiser des données géospatiales au format GeoJ
 
 ## Démonstation
 
-L'application est accessible à cette adresse : https://geojson.jeremy-simeon.fr
+L'application est accessible à cette adresse : https://geojson.jeremy-simeon.fr (inacessible pour le moment)
 
 ## Configuration
 
